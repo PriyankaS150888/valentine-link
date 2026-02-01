@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For Sankar 💖</title>
+<style>
+body {
+  text-align: center;
+  background: pink;
+  font-family: Arial;
+}
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 10px;
+  border: none;
+}
+#result img {
+  width: 250px;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>✨ My days are brighter because of you ✨</h2>
+<h3>My heart feels home with you…</h3>
+<h1>Dear Sankar ❤️</h1>
+<h2>Will you be mine forever? 💕</h2>
+
+<button onclick="yes()">❤️ YES</button>
+<button onclick="no()">💔 NO</button>
+
+<div id="result"></div>
+
+<script>
+function yes(){
+ document.getElementById("result").innerHTML =
+ '<img src="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif"><h2>I knew it! 💖</h2>';
+}
+
+function no(){
+ document.getElementById("result").innerHTML =
+ '<h2>Still waiting for your YES 😢</h2>';
+}
+</script>
+
+</body>
+</html>
